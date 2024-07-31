@@ -22,7 +22,7 @@ const Navbar = () => {
             alt=""
           />
         </div>
-        <div className="flex items-center gap-4">
+        {/* <div className="flex items-center gap-4">
           <p className="bg-white text-black text-[15px] px-4 py-1 rounded-2xl hidden md:block cursor-pointer">
             Explore Premium
           </p>
@@ -32,15 +32,15 @@ const Navbar = () => {
           <p className="bg-purple-500 text-black w-7 h-7 rounded-full flex items-center justify-center">
             R
           </p>
-        </div>
+        </div> */}
       </div>
-      <div className="flex items-center gap-2 mt-4">
+      {/* <div className="flex items-center gap-2 mt-4">
         <p className="bg-white text-black px-4 py-1 rounded-2xl cursor-pointer">
           All
         </p>
         <p className="bg-black px-4 py-1 rounded-2xl cursor-pointer">Music</p>
         <p className="bg-black px-4 py-1 rounded-2xl cursor-pointer">Podcast</p>
-      </div>
+      </div> */}
     </>
   );
 };
